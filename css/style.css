@@ -1,0 +1,38 @@
+*{
+    /*border: solid #000 0.5px;*/
+    font-family: 'Quicksand', sans-serif;
+}
+.container-body {
+    background-image: url(../img/fondo4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.container-body:before{
+    content: '';
+    position: absolute;
+    background-color: rgba( 0, 0, 0, 0.1 );
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* NAVBAR */
+
+.nav-logo{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+.dropdown-menu{
+    background-color:rgba(255,255,255,0.7);
+}
+
+.bg-dark-fondo{
+    background-color: black;
+    border: solid 1px white
+}
+
